@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 60%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.orange {
+    background-color: #fdbb40;
+    
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.margin-l {
+    margin-left: 10%;
+
+}
+
+.float-r {
+    float: right;
+}
+
+.corp-h {
+    width: 75%;
+    height: 150px;
+}
+
+.corp-m {
+    width: 75%;
+}
+
+.relat {
+    position: relative;
+}
+
+.absol {
+    position: absolute;
+    right: 17%;
+    bottom: -40%;
+}
+
