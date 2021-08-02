@@ -11,26 +11,98 @@
     margin: 0 auto;
 }
 
-.orange {
-    background-color: #fdbb40;
-    
+/* color  *//* color  *//* color  *//* color  *//* color  */
+
+.color-red {
+    color: red;
 }
 
+/*fine color  *//*fine color  *//*fine color  *//*fine color  *//*fine color  */
+
+/* background *//* background *//* background *//* background */
+
+.orange {
+    background-color: #fdbb40; 
+}
+
+.border-none {
+    outline: none;
+    border-style:none;
+}
+
+.red {
+    background-color: red;
+}
+
+/*fine background *//*fine background *//*fine background *//*fine background */
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
-
 }
 
-.margin-l {
+/* padding *//* padding *//* padding *//* padding */
+
+.pad {
+    padding: 10px;
+}
+
+.pad-t-1{
+    padding-top: 4%;
+}
+
+.pad-t-2 {
+    padding-top: 8%;
+}
+
+.pad-l {
+    padding-left: 10%;
+}
+
+.pad-l-1 {
+    padding-left: 15%;
+}
+
+
+.pad-r {
+    padding-right: 10%;
+}
+
+/*fine padding *//*fine padding *//*fine padding *//*fine padding */
+
+/* margi *//* margi *//* margi *//* margi *//* margi *//* margi */
+
+.marg-l {
     margin-left: 10%;
-
 }
+
+.marg-r {
+    margin-right: 10%;
+}
+
+/*fine margi *//*fine margi *//*fine margi *//*fine margi *//*fine margi */
+
+/* font  *//* font  *//* font  *//* font  */
+
+.font-0 {
+    font-size: 20px;
+}
+
+.font-1 {
+    font-size: 30px;
+}
+
+.font-2 {
+    font-size: 50px;
+}
+
+/*fine font  *//*fine font  *//*fine font  *//*fine font  */
 
 .float-r {
     float: right;
 }
+
+/* corp  *//* corp  *//* corp  *//* corp  *//* corp  */
 
 .corp-h {
     width: 75%;
@@ -40,6 +112,14 @@
 .corp-m {
     width: 75%;
 }
+
+.corp-vw-0 {
+    height: 4vw;
+    width: 4vw;
+}
+/*fine corp  *//*fine corp  *//*fine corp  *//*fine corp  *//*fine corp  */
+
+/* position *//* position *//* position *//* position *//* position */
 
 .relat {
     position: relative;
@@ -51,3 +131,17 @@
     bottom: -40%;
 }
 
+/*fine position *//*fine position *//*fine position *//*fine position *//*fine position */
+
+/* flex-component  *//* flex-component  *//* flex-component  */
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    
+    align-items: center;
+}
+
+/*fine flex-component  *//* fineflex-component  *//*fine flex-component  */
