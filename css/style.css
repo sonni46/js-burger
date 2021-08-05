@@ -60,6 +60,10 @@
     color: red;
 }
 
+.color-white {
+    color: white;
+}
+
 /*fine color  *//*fine color  *//*fine color  *//*fine color  *//*fine color  */
 
 /* background *//* background *//* background *//* background */
@@ -91,6 +95,10 @@
 
 .pad {
     padding: 10px;
+}
+
+.pad-lp-0 {
+    padding-left: 70px;
 }
 
 .pad-t-0 {
