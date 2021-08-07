@@ -8,15 +8,8 @@ let ketchup = 0.50;
 
 let ingredients = [panino];
 
-
-// let code = document.getElementById("code").value;
-
-
-// console.log(code)
-
-// document.getElementById("prezzoFinale").innerHTML = somma + " €";
-
 console.log(ingredients)
+
 document.getElementById("btn").addEventListener("click",
 function() {
     let codes = ["AD1E5R4F"];
