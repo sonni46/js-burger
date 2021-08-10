@@ -13,12 +13,12 @@ function() {
     if(codes.includes(code)) {
 
         total *= 0.8;
-        return document.getElementById("total").innerHTML = total + " €"
+        return document.getElementById("total").innerHTML = total + " €";
     }
     
-    return document.getElementById("total").innerHTML = total + " €"
+    return document.getElementById("total").innerHTML = total + " €";
 }
-)
+);
 
 
 
